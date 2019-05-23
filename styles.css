@@ -1,0 +1,71 @@
+.container-fluid.header {
+    background-color:rgb(255, 233, 165);
+    padding: 30px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.container-fluid.footer {
+    background-color:black;
+    color: white;
+    padding: 20px;
+    height: 60px;
+}
+
+.row.buscador {
+    background-color:rgb(255, 202, 96);
+    padding: 20px;
+}
+
+
+.container-fluid.catalogo {
+    background-color:rgb(224, 225, 226);
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.col.col-3 {
+    padding-bottom: 30px;
+}
+
+.card.animales {
+}
+
+.card-text-description {
+    font-size: 15px;
+    margin: 0px;
+    color: grey;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.card-text-title {
+    font-size: 10px;
+    line-height: 2px;
+    margin: 0px;
+    color: rgb(196, 194, 194);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #rgb(242, 172, 36);
+    border-color: #rgb(242, 172, 36);
+}
+
+.card.animal.img {
+    height: 350px;
+}
+
+.container.animal {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: grey;
+}
+
+.col-col-6.img-animal {
+    background-clip: border-box;
+}
