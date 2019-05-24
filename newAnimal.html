@@ -14,28 +14,28 @@
 
 
 <body>
-    <header>
-        <div class="container-fluid header">
-          <div class="row">
-            <div class="col col-2">
-              <a href="list.html"><img class="logo" src="img/logo.png" alt="Logo Adopt Dogs"
-                  title="Logo Adopt Dogs"></img></a>
+  <header>
+    <div class="container-fluid header">
+      <div class="row">
+        <div class="col col-2">
+          <a href="list.html"><img class="logo" src="img/logo.png" alt="Logo Adopt Dogs"
+              title="Logo Adopt Dogs"></img></a>
+        </div>
+        <div class="col col-8">
+          <div classs="container">
+            <div class="row">
+              <div class="col col-auto"></div>
+              <div class="col col-auto"></div>
+              <div class="col col-auto"></div>
+              <div class="col col-auto"></div>
             </div>
-            <div class="col col-8">
-              <div classs="container">
-                <div class="row">
-                  <div class="col col-auto"></div>
-                  <div class="col col-auto"></div>
-                  <div class="col col-auto"></div>
-                  <div class="col col-auto"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col col-2" style="text-align:right">
-                <a href="newAnimal.html" class="btn btn-primary card buscador">Registrar perro</a></div>
           </div>
         </div>
-      </header>
+        <div class="col col-2" style="text-align:right">
+            <a href="newAnimal.html" class="btn btn-primary card buscador">Registrar perro</a></div>
+      </div>
+    </div>
+  </header>
 
   <div class="buscador">
     <div class="container-fluid">
@@ -92,27 +92,41 @@
       <div class="col col-12">
         <div class="container animal">
           <div class="row">
-            <div class="col col-6 bg-full">
-              <!-- <img class="card-img-ficha" src="img/ovejero-paco.jpg"> -->
-            </div>
-            <div class="col col-6">
-              <div class="card animal">
-                <h5 class="card-title"><b>Paco</b></h5>
-                <p class="card-text-title">Raza</p>
-                <p class="card-text-description">Ovejero Alemán</p>
-                <p class="card-text-title">Sexo</p>
-                <p class="card-text-description">Macho</p>
-                <p class="card-text-title">Edad</p>
-                <p class="card-text-description">9 años</p>
-                <p class="card-text-title">Barrio</p>
-                <p class="card-text-description">Buceo</p>
-                <p class="card-text-title">Descripción</p>
-                <p class="card-description-block">Es guardián y muy cariñoso. Buscamos una familia que lo quiera y
-                  lo cuide. Lamentablemente le tenemos que buscar otro hogar porque nos vamos a vivir al exterior y no
-                  lo podemos llevar con nosotros. </p>
-
-                <a href="animal.html" class="btn btn-primary card">ADOPTAR</a>
-              </div>
+            <div class="col col-12">
+              <h1 class="h1-newanimal">Nuevo perro en adopción</h1>
+              <form class="form form-newanimal" action="url-to-server.php" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="name" placeholder="">
+                <br>
+                <label for="barrio">Barrio</label>
+                <input type="text" id="name" placeholder="">
+                <br>
+                <label for="raza">Raza</label>
+                <input type="text" id="name" placeholder="">
+                <br>
+                <label for="sexo">Sexo</label>
+                <select required id="name">
+                  <option value="Macho">Macho</option>
+                  <option value="Hembra">Hembra</option>
+                </select>
+                <br>
+                <label for="Nacimiento">Nacimiento</label>
+                <input type="date" id="name" name="nacimiento" value="2008-06-06">
+                <br>
+                <label for="color-pelo">Color de pelo</label>
+                <input type="text" id="name" placeholder="">
+                <br>
+                <label for="color-ojos">Color de ojos</label>
+                <input type="text" id="name" placeholder="">
+                <br>
+                <label for="descripcion">Descripción</label>
+                <textarea id="name-placeholder" placeholder="Describe al perro"></textarea>
+                <br>
+                <label for="exampleFormControlFile1">Subir foto</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                <br>
+                <button class="btn btn-primary card" type="submit">Agregar</button>
+              </form>
             </div>
           </div>
         </div>
