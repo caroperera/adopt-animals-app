@@ -14,35 +14,23 @@
 
 
 <body>
-    <header>
-        <div class="container-fluid header">
-          <div class="row">
-            <div class="col col-2">
-              <a href="list.html"><img class="logo" src="img/logo.png" alt="Logo Adopt Dogs"
-                  title="Logo Adopt Dogs"></img></a>
-            </div>
-            <div class="col col-8">
-              <div classs="container">
-                <div class="row">
-                  <div class="col col-auto"></div>
-                  <div class="col col-auto"></div>
-                  <div class="col col-auto"></div>
-                  <div class="col col-auto"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col col-2" style="text-align:right">
-                <a href="newAnimal.html" class="btn btn-primary card buscador">Registrar perro</a></div>
-          </div>
+  <header>
+    <div class="container-fluid header">
+      <div class="row">
+        <div class="col col-auto">
+          <a href="list.html"><img class="logo" src="img/logo.png" alt="Logo Adopt Dogs"
+              title="Logo Adopt Dogs"></img></a>
         </div>
-      </header>
+      </div>
+    </div>
+  </header>
 
   <div class="buscador">
     <div class="container-fluid">
       <div class="row buscador">
         <div class="col col-auto">
           <form action="url-to-server.php" method="post">
-            <select required id="raza">
+            <select class="custom-select">
               <option value="">Raza</option>
               <option value="Ovejero Aleman">Ovejero Alemán</option>
               <option value="Jack Russell Terrier">Jack Russell Terrier</option>
@@ -55,7 +43,7 @@
 
         <div class="col col-auto">
           <form action="url-to-server.php" method="post">
-            <select required id="Sexo">
+            <select class="custom-select">
               <option value="">Sexo</option>
               <option value="Macho">Macho</option>
               <option value="Hembra">Hembra</option>
@@ -65,7 +53,7 @@
 
         <div class="col col-auto">
           <form action="url-to-server.php" method="post">
-            <select required id="año">
+            <select class="custom-select">
               <option value="">Edad</option>
               <option value="Menos de 1 año">Menos de 1 año</option>
               <option value="1 año">1 año</option>
@@ -78,10 +66,32 @@
         </div>
 
         <div class="col col-auto">
+          <form action="url-to-server.php" method="post">
+            <select class="custom-select">
+              <option value="Buceo">Buceo</option>
+              <option value="Malvin">Malvin</option>
+              <option value="Pocitos">Pocitos</option>
+              <option value="Punta Carretas">Punta Carretas</option>
+              <option value="Cordon">Cordón</option>
+              <option value="Carrasco">Carrasco</option>
+            </select>
+          </form>
+        </div>
+
+
+        <div class="col col-auto">
           <form>
             <a href="list.html" class="btn btn-primary card buscador">Buscar</a>
           </form>
         </div>
+
+        <div class="col col-auto">
+          <form>
+            <a href="newAnimal.html" class="btn btn-primary card buscador registrar">Registrar nuevo perro</a>
+          </form>
+        </div>
+
+
       </div>
     </div>
   </div>
