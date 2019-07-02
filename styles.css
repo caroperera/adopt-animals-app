@@ -7,6 +7,39 @@
     height: 40px;
 }
 
+
+.row.buscador {
+    background-color:rgb(255, 202, 96);
+    padding: 20px;
+}
+
+
+.btn.btn-primary.card.buscador {
+    color: rgb(255, 255, 255);
+    background-color: rgb(242, 172, 36);
+    border-color: rgb(242, 172, 36);
+    margin-top: 0px;
+}
+
+.btn.btn-primary.card.buscador:hover {
+    background-color: rgb(204, 142, 18);
+    border-color:  rgb(204, 142, 18);
+}
+
+.btn.btn-primary.card.buscador.registrar {
+    color: rgb(128, 120, 14);
+    background-color: rgb(255, 251, 0);
+    border-color: rgb(242, 172, 36);
+    margin-top: 0PX;
+}
+
+.btn.btn-primary.card.buscador.registrar:hover {
+    color: rgb(128, 120, 14);
+    background-color: rgb(255, 238, 0);
+    border-color: rgb(209, 150, 32);    
+}
+
+
 .container-fluid.footer {
     background-color:black;
     color: white;
@@ -14,10 +47,11 @@
     height: 60px;
 }
 
-.row.buscador {
-    background-color:rgb(255, 202, 96);
-    padding: 20px;
-}
+
+
+
+
+
 
 
 .container-fluid.catalogo {
@@ -71,38 +105,6 @@
     border-color:  rgb(204, 142, 18);
 }
 
-.btn.btn-primary.card.buscador {
-    color: rgb(255, 255, 255);
-    background-color: rgb(242, 172, 36);
-    border-color: rgb(242, 172, 36);
-    margin-top: 0px;
-}
-
-.btn.btn-primary.card.buscador:hover {
-    background-color: rgb(204, 142, 18);
-    border-color:  rgb(204, 142, 18);
-}
-
-.btn.btn-primary.card.buscador.registrar {
-    color: rgb(128, 120, 14);
-    background-color: rgb(255, 251, 0);
-    border-color: rgb(242, 172, 36);
-    margin-top: 0PX;
-}
-
-.btn.btn-primary.card.buscador.registrar:hover {
-    color: rgb(128, 120, 14);
-    background-color: rgb(255, 238, 0);
-    border-color: rgb(209, 150, 32);    
-}
-
-#name {
-    border-radius: .25rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(202, 202, 202);
-    margin-bottom: 26px;
-}  
 
 .card.animales {
     margin: 10px;
@@ -142,6 +144,8 @@
 }
 
 .form.form-newanimal {
+    width: 100%;
+    Background-color: transparent;
     margin: 40px;
 }
 
@@ -152,12 +156,14 @@
     font-size: 22px;
 }
 
+
 #name {
     border-radius: .25rem;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(202, 202, 202);
-}
+    margin-bottom: 26px;
+}  
 
 #name-placeholder {
     border-radius: .25rem;
